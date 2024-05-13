@@ -54,7 +54,7 @@ In the cells below, we import `pandas` and `numpy` for you, and we load the data
 import pandas as pd 
 import numpy as np 
 
-# Load the data
+# Loading the data
 filename = 'data/Folds5x2_pp.csv'
 df = pd.read_csv(filename, index_col=0)
 ```
